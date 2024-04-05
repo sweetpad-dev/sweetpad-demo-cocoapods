@@ -1,0 +1,16 @@
+PODS:
+  - SwiftUIWebView (1.0.8)
+
+DEPENDENCIES:
+  - SwiftUIWebView (~> 1.0.8)
+
+SPEC REPOS:
+  trunk:
+    - SwiftUIWebView
+
+SPEC CHECKSUMS:
+  SwiftUIWebView: f482a09efc0f7f707f83ce813fc20c78a96c6cdd
+
+PODFILE CHECKSUM: a6fe9c0228b56a93362d195b91a2ba0a5b8fbde3
+
+COCOAPODS: 1.15.2
