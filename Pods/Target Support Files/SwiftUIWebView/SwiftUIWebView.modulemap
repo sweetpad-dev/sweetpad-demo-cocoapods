@@ -1,0 +1,6 @@
+module SwiftUIWebView {
+  umbrella header "SwiftUIWebView-umbrella.h"
+
+  export *
+  module * { export * }
+}

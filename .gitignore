@@ -13,7 +13,6 @@ DerivedData/
 xcuserdata/
 
 # CocoaPods
-Pods/
 !default.xcworkspace
 *.xccheckout
 !default.xccheckout

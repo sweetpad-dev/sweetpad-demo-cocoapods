@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F8F11195E2C59BC07F5085F92A50E5A /* Pods-sweetpad-demo-cocoapods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38CA64A94DBB38E10CEAEBD87082EA3D /* Pods-sweetpad-demo-cocoapods-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		12128FD70D99A8938679A870DE1B01EC /* Pods-sweetpad-demo-cocoapods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 412FCC5EBEF12180EB861C99AFB95BB0 /* Pods-sweetpad-demo-cocoapods-dummy.m */; };
+		2B1CFD8465DA9BC05B193C862BF0EFF7 /* SwiftUIWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D22C88188AA0CBE75E1976D117A718F5 /* SwiftUIWebView-dummy.m */; };
+		4147239C3B317D833653B34F5BAB6FB8 /* SwiftUIWebView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D42AD480D6793F6458445570FCFA9303 /* SwiftUIWebView-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A27876B055EA11BA4BDFD0F608C529EC /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87E427AA28D2CC554A5CB1A9B4F3B73 /* SwiftUIWebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5253D35A189ECBFED27B5B2F0D403D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD3BDB300F292D1FAF3EF74DF45FD174;
+			remoteInfo = SwiftUIWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16B67E6DE9DD1920AD610C983C0A08F9 /* SwiftUIWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftUIWebView.debug.xcconfig; sourceTree = "<group>"; };
+		38CA64A94DBB38E10CEAEBD87082EA3D /* Pods-sweetpad-demo-cocoapods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sweetpad-demo-cocoapods-umbrella.h"; sourceTree = "<group>"; };
+		398A9835953134B01EF72C9183C454B8 /* Pods-sweetpad-demo-cocoapods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sweetpad-demo-cocoapods.modulemap"; sourceTree = "<group>"; };
+		412FCC5EBEF12180EB861C99AFB95BB0 /* Pods-sweetpad-demo-cocoapods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sweetpad-demo-cocoapods-dummy.m"; sourceTree = "<group>"; };
+		447768F055030DA8D034B6491E439B16 /* SwiftUIWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftUIWebView.release.xcconfig; sourceTree = "<group>"; };
+		490C8E4B3C89D3A3E59147A90F223528 /* Pods-sweetpad-demo-cocoapods */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-sweetpad-demo-cocoapods"; path = "libPods-sweetpad-demo-cocoapods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		644BDDE8253BC1E9B2966D57E24294E2 /* Pods-sweetpad-demo-cocoapods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sweetpad-demo-cocoapods-acknowledgements.plist"; sourceTree = "<group>"; };
+		84E66F2D7D9CAC09591003B2F8694C3C /* Pods-sweetpad-demo-cocoapods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sweetpad-demo-cocoapods.release.xcconfig"; sourceTree = "<group>"; };
+		91E04E4D11A4EBC593FE1A98C4349E7C /* SwiftUIWebView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftUIWebView-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AABE7335E2174FE4E72FD3A44800452F /* SwiftUIWebView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftUIWebView.modulemap; sourceTree = "<group>"; };
+		AD5CF19BBA4D66D7FE15D4DDD3A312ED /* SwiftUIWebView */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = SwiftUIWebView; path = libSwiftUIWebView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87E427AA28D2CC554A5CB1A9B4F3B73 /* SwiftUIWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftUIWebView.swift; path = Sources/SwiftUIWebView/SwiftUIWebView.swift; sourceTree = "<group>"; };
+		CE68F0B91582A38F721E62B38392C67E /* Pods-sweetpad-demo-cocoapods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sweetpad-demo-cocoapods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D22C88188AA0CBE75E1976D117A718F5 /* SwiftUIWebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftUIWebView-dummy.m"; sourceTree = "<group>"; };
+		D42AD480D6793F6458445570FCFA9303 /* SwiftUIWebView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftUIWebView-umbrella.h"; sourceTree = "<group>"; };
+		D7FFB7B6957DCFEE446CBA6F9E960221 /* Pods-sweetpad-demo-cocoapods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sweetpad-demo-cocoapods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35770A46EAD5FD52D0BF15B80E399A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB98D9E828E60DEE0AD79214A09E1D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19A423738883A256E404F7BB1B720FF2 /* Pods-sweetpad-demo-cocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				398A9835953134B01EF72C9183C454B8 /* Pods-sweetpad-demo-cocoapods.modulemap */,
+				CE68F0B91582A38F721E62B38392C67E /* Pods-sweetpad-demo-cocoapods-acknowledgements.markdown */,
+				644BDDE8253BC1E9B2966D57E24294E2 /* Pods-sweetpad-demo-cocoapods-acknowledgements.plist */,
+				412FCC5EBEF12180EB861C99AFB95BB0 /* Pods-sweetpad-demo-cocoapods-dummy.m */,
+				38CA64A94DBB38E10CEAEBD87082EA3D /* Pods-sweetpad-demo-cocoapods-umbrella.h */,
+				D7FFB7B6957DCFEE446CBA6F9E960221 /* Pods-sweetpad-demo-cocoapods.debug.xcconfig */,
+				84E66F2D7D9CAC09591003B2F8694C3C /* Pods-sweetpad-demo-cocoapods.release.xcconfig */,
+			);
+			name = "Pods-sweetpad-demo-cocoapods";
+			path = "Target Support Files/Pods-sweetpad-demo-cocoapods";
+			sourceTree = "<group>";
+		};
+		1C1E77CF5FB5EE981E095CAA8C0DEB61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AABE7335E2174FE4E72FD3A44800452F /* SwiftUIWebView.modulemap */,
+				D22C88188AA0CBE75E1976D117A718F5 /* SwiftUIWebView-dummy.m */,
+				91E04E4D11A4EBC593FE1A98C4349E7C /* SwiftUIWebView-prefix.pch */,
+				D42AD480D6793F6458445570FCFA9303 /* SwiftUIWebView-umbrella.h */,
+				16B67E6DE9DD1920AD610C983C0A08F9 /* SwiftUIWebView.debug.xcconfig */,
+				447768F055030DA8D034B6491E439B16 /* SwiftUIWebView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftUIWebView";
+			sourceTree = "<group>";
+		};
+		44946D00F38C295743A99922CC284D50 /* SwiftUIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				B87E427AA28D2CC554A5CB1A9B4F3B73 /* SwiftUIWebView.swift */,
+				1C1E77CF5FB5EE981E095CAA8C0DEB61 /* Support Files */,
+			);
+			name = SwiftUIWebView;
+			path = SwiftUIWebView;
+			sourceTree = "<group>";
+		};
+		C675AC72438286688B8438393E362578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				490C8E4B3C89D3A3E59147A90F223528 /* Pods-sweetpad-demo-cocoapods */,
+				AD5CF19BBA4D66D7FE15D4DDD3A312ED /* SwiftUIWebView */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				DCA0EA7EFF77F9E419B562BC80B69064 /* Pods */,
+				C675AC72438286688B8438393E362578 /* Products */,
+				E30C12E8C1054E4C8B00B8B0DC59A7FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCA0EA7EFF77F9E419B562BC80B69064 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44946D00F38C295743A99922CC284D50 /* SwiftUIWebView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E30C12E8C1054E4C8B00B8B0DC59A7FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19A423738883A256E404F7BB1B720FF2 /* Pods-sweetpad-demo-cocoapods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9ABDF9BFA6B5C7107B0F284952412673 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4147239C3B317D833653B34F5BAB6FB8 /* SwiftUIWebView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48F4A9FADBD5575D9392A019F2DFF17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8F11195E2C59BC07F5085F92A50E5A /* Pods-sweetpad-demo-cocoapods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AD3BDB300F292D1FAF3EF74DF45FD174 /* SwiftUIWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7086A33BA4CF166DC2DC53FAB8BF8E67 /* Build configuration list for PBXNativeTarget "SwiftUIWebView" */;
+			buildPhases = (
+				9ABDF9BFA6B5C7107B0F284952412673 /* Headers */,
+				38BB1B9BBA9BA022CDB47C1A2D38A11E /* Sources */,
+				FB98D9E828E60DEE0AD79214A09E1D67 /* Frameworks */,
+				31C3F0F6074AECA869457379EB77EB40 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIWebView;
+			productName = SwiftUIWebView;
+			productReference = AD5CF19BBA4D66D7FE15D4DDD3A312ED /* SwiftUIWebView */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C75A6565A8680E234E82B44B5ACE5812 /* Pods-sweetpad-demo-cocoapods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388B57C2F6CADEFA055B4ED52EFE368E /* Build configuration list for PBXNativeTarget "Pods-sweetpad-demo-cocoapods" */;
+			buildPhases = (
+				A48F4A9FADBD5575D9392A019F2DFF17 /* Headers */,
+				CD718EA3D2F6900A6E85EB26D4D3B9F7 /* Sources */,
+				35770A46EAD5FD52D0BF15B80E399A8E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEF7A3E5A5EBE2D4C67AA82CF8A216E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-sweetpad-demo-cocoapods";
+			productName = "Pods-sweetpad-demo-cocoapods";
+			productReference = 490C8E4B3C89D3A3E59147A90F223528 /* Pods-sweetpad-demo-cocoapods */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C675AC72438286688B8438393E362578 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C75A6565A8680E234E82B44B5ACE5812 /* Pods-sweetpad-demo-cocoapods */,
+				AD3BDB300F292D1FAF3EF74DF45FD174 /* SwiftUIWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31C3F0F6074AECA869457379EB77EB40 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SwiftUIWebView/SwiftUIWebView.modulemap",
+				"${PODS_ROOT}/Headers/Public/SwiftUIWebView/SwiftUIWebView-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwiftUIWebView-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftUIWebView/SwiftUIWebView.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftUIWebView/SwiftUIWebView-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38BB1B9BBA9BA022CDB47C1A2D38A11E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27876B055EA11BA4BDFD0F608C529EC /* SwiftUIWebView.swift in Sources */,
+				2B1CFD8465DA9BC05B193C862BF0EFF7 /* SwiftUIWebView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD718EA3D2F6900A6E85EB26D4D3B9F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12128FD70D99A8938679A870DE1B01EC /* Pods-sweetpad-demo-cocoapods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEF7A3E5A5EBE2D4C67AA82CF8A216E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftUIWebView;
+			target = AD3BDB300F292D1FAF3EF74DF45FD174 /* SwiftUIWebView */;
+			targetProxy = 5253D35A189ECBFED27B5B2F0D403D02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3BD9979626BB2701A36507BB0BE25743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447768F055030DA8D034B6491E439B16 /* SwiftUIWebView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftUIWebView/SwiftUIWebView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MODULEMAP_FILE = Headers/Public/SwiftUIWebView/SwiftUIWebView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftUIWebView;
+				PRODUCT_NAME = SwiftUIWebView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		746A33323FA4E672D5C95F4580923388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B67E6DE9DD1920AD610C983C0A08F9 /* SwiftUIWebView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftUIWebView/SwiftUIWebView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MODULEMAP_FILE = Headers/Public/SwiftUIWebView/SwiftUIWebView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftUIWebView;
+				PRODUCT_NAME = SwiftUIWebView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B958EDE622C86CD8CD33EA2750FFCF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7FFB7B6957DCFEE446CBA6F9E960221 /* Pods-sweetpad-demo-cocoapods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sweetpad-demo-cocoapods/Pods-sweetpad-demo-cocoapods.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB465D5F426793A39136C6354A18E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84E66F2D7D9CAC09591003B2F8694C3C /* Pods-sweetpad-demo-cocoapods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sweetpad-demo-cocoapods/Pods-sweetpad-demo-cocoapods.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		388B57C2F6CADEFA055B4ED52EFE368E /* Build configuration list for PBXNativeTarget "Pods-sweetpad-demo-cocoapods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B958EDE622C86CD8CD33EA2750FFCF28 /* Debug */,
+				DDB465D5F426793A39136C6354A18E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7086A33BA4CF166DC2DC53FAB8BF8E67 /* Build configuration list for PBXNativeTarget "SwiftUIWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746A33323FA4E672D5C95F4580923388 /* Debug */,
+				3BD9979626BB2701A36507BB0BE25743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+module Pods_sweetpad_demo_cocoapods {
+  umbrella header "Pods-sweetpad-demo-cocoapods-umbrella.h"
+
+  export *
+  module * { export * }
+}
